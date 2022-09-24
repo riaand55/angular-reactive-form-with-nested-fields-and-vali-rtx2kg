@@ -48,6 +48,7 @@ export class AppComponent {
         })
       ])
     });
+    this.companyForm.markAsTouched();
   }
 
   onSubmit(post, isValid) {
